@@ -1,0 +1,17 @@
+<div id="cuadros">
+    <img src="../../../assets/boton_izquierda.png" class="boton" (click)="retroceder()">
+    <figure id="figurecuadros">
+      <img [src]='baseUrl+i+endUrl' id="scrollcuadros">
+      <figcaption>
+        <p>
+          Cuadritos personalizados <em>pintados a mano</em> para
+          inmortalizar a tu mascota.<br>
+          Precio:$1500<br>
+          Seña:$500
+        </p>
+      </figcaption>
+      <!--<a href="#contenedorMain">Inicio</a>-->
+    </figure>
+    
+    <img src="../../../assets/boton_derecha.png" class="boton" (click)="avanzar()">    
+  </div>

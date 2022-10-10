@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+@media screen and (max-width:320px) and (orientation:portrait){
+body{
+    background-color: rgb(174,123,166);
+}
+header{
+    background-image: url(../../../assets/fondo_encabezado.jpg);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    position: relative;
+    top:-12px;
+}
+}
